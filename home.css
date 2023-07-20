@@ -1,0 +1,1256 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+#root{
+
+width: 1900px;
+height: auto;
+margin: 0 auto;
+
+}
+
+#home-header {
+
+    width: 100%;
+    height: 100px;
+    background-color: rgb(10, 50, 51);
+    /* background-color: rgb(56, 25, 25); */
+    color: rgb(73, 235, 224);
+    /* position: fixed; */
+    float: left;
+}
+
+#home-header .site-logo-name {
+    width: 700px;
+    height: 100px;
+    background-color: transparent;
+    float: left;
+
+}
+
+#home-header .logo {
+    width: 300px;
+    height: 100px;
+    background-color: transparent;
+    float: left;
+    margin-left: 100px;
+
+}
+
+#home-header .logo img {
+    width: 300px;
+    height: 130px;
+    background-color: transparent;
+
+}
+
+.site-name {
+    width: 300px;
+    height: 100px;
+    background-color: transparent;
+    float: left;
+
+
+}
+
+.site-name .marina {
+    font-size: 50px;
+    font-family: 'Belanosima', sans-serif;
+    margin-top: 10px;
+    float: left;
+
+}
+
+.site-name .fleet {
+    font-size: 30px;
+    font-family: 'Belanosima', sans-serif;
+    /* margin-left: 100px; */
+    margin-top: 45px;
+    float: left;
+
+
+
+}
+
+
+
+#home-header .links {
+    width: 1000px;
+    height: 100px;
+    background-color: transparent;
+    float: left;
+    padding-top: 50px;
+
+
+
+}
+
+
+
+.links a {
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Belanosima', sans-serif;
+    text-decoration: none;
+    color: rgb(220, 224, 143);
+}
+
+.links a:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.links .active {
+    color: yellow;
+
+}
+
+.contact {
+    width: 200px;
+    height: 100px;
+    background-color: transparent;
+    float: left;
+    padding-top: 25px;
+    font-family: sans-serif;
+    color: rgb(26, 211, 211);
+}
+
+/* .contact a{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Belanosima', sans-serif;
+    text-decoration: none;
+} */
+.contact .email {
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    margin-block: 2px;
+    float: left;
+
+}
+
+.contact .email img {
+    width: 22px;
+    height: 25px;
+    float: left;
+    margin-right: 5px;
+}
+
+.contact .email .gmail {
+    width: 120px;
+    height: 30px;
+    color: rgb(73, 235, 224);
+    background-color: transparent;
+    float: left;
+
+    padding-top: 5px;
+    font-size: 14px;
+}
+.contact .email:hover .gmail{
+    color: yellow;
+    cursor: pointer;
+}
+
+.contact .phone {
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+   
+    margin-block: 2px;
+    padding-left: 2px;
+    float: left;
+
+}
+
+.contact .phone img {
+    width: 20px;
+    height: 25px;
+    margin-right: 5px;
+    float: left;
+
+}
+
+.contact .phone .phone-num {
+    width: 120px;
+    height: 30px;
+    background-color: transparent;
+    float: left;
+    color: rgb(73, 235, 224);
+    padding-top: 5px;
+    font-size: 14px;
+}
+.contact .phone:hover .phone-num{
+    color: yellow;
+    cursor: pointer;
+}
+/* terms&condition */
+#terms {
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+    float: left;
+}
+
+#terms .terms-heading {
+    width: 100%;
+    height: 150px;
+    /* background-color: antiquewhite; */
+    border-bottom: 1px solid rgb(10, 50, 51);
+    float: left;
+}
+
+.terms-heading h1 {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#terms .terms-notice {
+    width: 100%;
+    height: 300px;
+    /* background-color: blanchedalmond; */
+    float: left;
+
+}
+
+.terms-notice h2 {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: serif;
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: -.03em;
+
+    /* border-bottom: 5px solid rgb(7, 43, 43); */
+}
+
+.after {
+    border-bottom: 10px solid rgb(10, 50, 51);
+    width: 100px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.note {
+    width: 100%;
+    height: 50px;
+    /* background-color: aliceblue; */
+    float: left;
+    text-align: center;
+}
+
+.note p {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.terms-description {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+}
+
+.terms-description p {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+
+}
+
+
+/* terms of use end  */
+
+.vid{
+    width: 100%;
+    height: 1000px;
+   
+    position: relative;
+    overflow: hidden;
+  
+    float: left;
+}
+
+ .background-video {
+      
+ 
+      
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+
+#main-heading {
+    width: 100%;
+    height: 150px;
+    float: left;
+    margin-top: 150px;
+}
+
+#main-heading h1 {
+
+    font-size: 45px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(253, 253, 253);
+    margin-left: 200px;
+    float: left;
+}
+
+#s2-heading {
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+
+    float: left;
+}
+
+#s2-heading h2 {
+
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(253, 253, 253);
+    margin-left: 200px;
+    float: left;
+    margin-left: 200px;
+}
+
+/* .why-us{
+
+    width: 200px;
+    height: 100px;
+  
+    float: left;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} */
+
+#plugins-home-page {
+
+    width: 100%;
+    height: 105px;
+    margin-top: 300px;
+    float: left;
+    ba
+}
+
+.cat-link {
+    margin-left: 300px;
+
+}
+
+.cat-link a {
+    padding: 30px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+
+    color: rgb(220, 224, 143);
+    text-decoration: none;
+
+}
+
+.cat-link a:hover {
+    color: yellow;
+    /* background-color: bisque; */
+    box-shadow: 1px black;
+}
+
+
+#plugins-home-page .destinations {
+    width: auto;
+    height: auto;
+    background-color: rgb(10, 50, 51);
+    border-radius: 20px;
+    margin-inline: 50px;
+    float: left;
+}
+
+#home-body {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background-color: rgb(8, 60, 66);
+    float: left;
+
+}
+
+#home-body .charter {
+
+    width: 600px;
+    height: 95%;
+    margin-block: 10px;
+    margin-inline: 10px;
+    margin-left: 30px;
+    background-color: brown;
+    float: left;
+}
+
+.charter .charter-name {
+    font-size: 40px;
+    font-weight: 90;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(253, 253, 253);
+    background-color: transparent;
+}
+
+.charter {
+    background-image: url("img/charter.jpg");
+    height: 100%;
+    width: 100%;
+    transition: all 0.2s ease-in;
+    background-color: #cccccc;
+
+}
+
+.charter:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    background: cross-fade(10%, 10%);
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.005);
+}
+
+
+
+
+
+#home-body .Yacht-home {
+
+    width: 1200px;
+    height: 430px;
+    margin-block: 10px;
+    margin-inline: 10px;
+    background-color: transparent;
+    float: left;
+}
+
+.Yacht-home .yacht-name {
+    font-size: 40px;
+    font-weight: 90;
+    margin-left: 550px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(253, 253, 253);
+}
+
+.Yacht-home {
+    background-image: url("img/yacht\ home.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.Yacht-home:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    /* background: cross-fade(10% ,10%); */
+    /* transition: background-size 1s ease-in-out;  */
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.005);
+
+}
+
+
+#home-body .sailing-home {
+
+    width: 590px;
+    height: 400px;
+    margin-block: 10px;
+    margin-inline: 10px;
+    background-color: rgb(233, 174, 235);
+    float: left;
+}
+
+.sailing-home .sailing {
+    font-size: 40px;
+    font-weight: 90;
+    margin-left: 240px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(253, 253, 253);
+}
+
+.sailing-home {
+    background-image: url("img/sailing.jpg");
+    height: 100%;
+    width: 100%;
+}
+
+.sailing-home:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    background: cross-fade(10%, 10%);
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.005);
+
+}
+
+
+#home-body .fishing-home {
+
+    width: 590px;
+    height: 400px;
+    margin-block: 10px;
+    margin-inline: 10px;
+
+    background-color: rgb(25, 150, 223);
+    float: left;
+}
+
+.fishing-home .fishing {
+    font-size: 40px;
+    font-weight: 90;
+    margin-left: 240px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(253, 253, 253);
+}
+
+.fishing-home {
+    background-image: url("img/fishing.jpg");
+    height: 100%;
+    width: 100%;
+}
+
+.fishing-home:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    background: cross-fade(10%, 10%);
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.005);
+
+}
+
+.home-history {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(8, 60, 66);
+    float: left;
+}
+
+/* .home-history{
+    background-image: url("img/his.jpg");
+} */
+
+.home-history .owner-name {
+    width: 500px;
+    height: 50px;
+    margin-block: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-block: 10px;
+    /* background-color: rgb(212, 194, 194); */
+    float: left;
+}
+
+.home-history .owner-name .messi {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+}
+
+.home-history .img-owner {
+    width: 500px;
+    height: 600px;
+    margin-top: 0px;
+    margin-left: 50px;
+    /* background-color: antiquewhite; */
+    float: left;
+}
+
+.home-history .img-owner img {
+    width: 500px;
+    height: 600px;
+}
+
+.home-history .history-name {
+    width: 1200px;
+    height: 50px;
+    margin-block: 20px;
+    margin-top: 50px;
+    margin-inline: 20px;
+    padding-top: 20px;
+    /* background-color: rgb(212, 194, 194); */
+    float: left;
+}
+
+.history-name .history {
+
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+
+}
+
+.home-history .history-description {
+
+    width: 1200px;
+    height: 600px;
+    /* background-color: beige; */
+    margin-block: 0;
+    padding-block: 50px;
+    margin-inline: 20px;
+    float: left;
+}
+
+.home-history .history-description .description-history-short {
+    width: 700px;
+    height: auto;
+
+    margin-left: 240px;
+    /* display: block; */
+    text-align: center;
+    font-size: 23px;
+    font-family:   sans-serif;
+    color: rgb(245, 245, 239);
+
+
+}
+
+#footer {
+
+    width: 100%;
+    height: 90px;
+    background-color: rgb(10, 50, 51);
+    padding-top: 20px;
+    padding-left: 100px;
+    float: left;
+}
+
+.footer-links {
+
+    width: 500px;
+    height: 50px;
+    /* background-color: brown; */
+    float: left;
+
+}
+
+.footer-links a {
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-inline: 20px;
+    margin-block: 20px;
+    color: rgb(220, 224, 143);
+    text-decoration: none;
+    float: left;
+
+}
+
+.footer-links a:hover {
+    color: yellow;
+}
+
+.copy-right {
+
+    width: 400px;
+    height: 50px;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 20px;
+
+    color: rgb(99, 97, 97);
+    text-decoration: none;
+    /* background-color: bisque; */
+    margin-left: 100px;
+    float: left;
+}
+
+.socials {
+    width: 400px;
+    height: 50px;
+    /* background-color: palevioletred; */
+    margin-left: 300px;
+    float: left;
+}
+
+.socials img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+
+
+/* GALLERY SUIIII */
+
+.gallery-heading {
+
+    width: 100%;
+    height: 300px;
+    background-color: rgb(49, 142, 223);
+    background-image: url("img/gallery2.jpg");
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-heading .welcome-heading {
+
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(240, 240, 235);
+
+
+}
+
+.gallery-body {
+    width: 100%;
+    height: auto;
+    background-color: rgb(8, 60, 66);
+    padding-inline: 120px;
+    padding-block: 50px;
+    float: left;
+}
+
+.gallery-body .yacht1 {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(8, 8, 8);
+    margin: 20px;
+    margin-block: 50px;
+    float: left;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yacht-description {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: rgb(243, 243, 240);
+    text-align: center;
+    display: none;
+    margin-top: 200px;
+    padding: 10px;
+}
+
+.gallery-body .yacht1:hover .yacht-description {
+    display: block;
+    cursor: pointer;
+    background-color: rgb(44, 43, 43);
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+
+}
+
+.gallery-body .yacht1:hover {
+    opacity: 0.8;
+    transform: scale(1.02, 1.02);
+    transition: all 0.5s ease-in-out;
+}
+
+/* GALLERY CSS ENDS  */
+
+/* yacht css start */
+
+.yacht-heading-home {
+
+    width: 100%;
+    height: 300px;
+    background-color: rgb(49, 142, 223);
+    background-image: url("img/yacht-sale-home2.png");
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yacht-heading-home .welcome-heading-yacht {
+
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(240, 240, 235);
+
+
+}
+
+.yacht-body , .sailing-body , .fishing-body{
+
+    width: 100%;
+    height: auto;
+    background-color: rgb(8, 60, 61);
+    padding-inline: 120px;
+    padding-block: 50px;
+    float: left;
+}
+
+ .yacht-sale {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(80, 194, 204);
+    margin: 20px;
+    margin-block: 50px;
+    float: left;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yacht-sale .img-yacht {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(2, 2, 2);
+
+}
+
+.yacht-sale .img-yacht img {
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yacht-sale .img-yacht:hover img {
+    opacity: 0.8;
+    transform: scale(1.02, 1.02);
+    transition: all 0.5s ease-in-out;
+}
+
+
+.yacht-sale .pricing {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(10, 50, 51);
+    text-align: center;
+    padding: 20px;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+    border-radius: 10px;
+    background-color: rgb(16, 82, 100);
+    color: rgb(240, 237, 237);
+    text-align: center;
+    margin-left: 200px;
+    border: none;
+    text-align: center;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(10, 50, 51);
+}
+
+.yacht-lines , .sailing-lines , .fishing-lines {
+    width: 100%;
+    height: auto;
+    background-color: rgb(9, 55, 55);
+   
+    float: left;
+
+}
+
+.content {
+
+    width: 1200px;
+    height: auto ; 
+    /* background-color: black; */
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 400px ;
+    font-size: 20px;
+    float: left;
+    display: block;
+    color: rgb(243, 243, 236);
+    font-family:  sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+  .content-heading , .sailing-heading , .fishing-heading{
+    width: 100%;
+    height: 50px;
+    /* background-color: rgb(15, 15, 15); */
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+    text-align: center;
+}
+
+/* YACHT SALE END */
+
+/* sailing start */
+ 
+
+.sailing-head {
+
+    width: 100%;
+    height: 300px;
+    background-color: rgb(49, 142, 223);
+    background-image: url("img/yacht-sale-home2.png");
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sailing-head .welcome-heading-sailing{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(240, 240, 235);
+}
+
+/* Sailing END */
+
+/* FISHING STARTS */
+
+.fishing-head {
+
+    width: 100%;
+    height: 300px;
+    background-color: rgb(49, 142, 223);
+    background-image: url("img/fish-home-header1.png");
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fishing-head .welcome-heading-fishing{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(240, 240, 235);
+}
+
+/* FISHING ENDS  */
+
+
+/* CHARTER STARTS */
+.video-charter{
+    width: 100%;
+    height: 800px;
+   
+    position: relative;
+    overflow: hidden;
+  
+    float: left;
+}
+
+#main-heading-charter  {
+    width: 100%;
+    height: 150px;
+    float: left;
+    margin-top: 270px;
+}
+
+#main-heading-charter  h1 {
+
+    font-size: 45px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(253, 253, 253);
+    margin-left: 200px;
+    float: left;
+}
+
+#s2-heading-charter  {
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+
+    float: left;
+}
+
+#s2-heading-charter h2 {
+
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(253, 253, 253);
+    margin-left: 200px;
+    float: left;
+    margin-left: 200px;
+}
+
+.charter-body{
+
+    width: 100%;
+    height: auto;
+    background-color: rgb(8, 60, 61);
+    width: 100%;
+    /* background-color: rgb(8, 60, 61); */
+    padding-inline: 120px;
+    padding-block: 50px;
+    float: left;
+}
+
+.destination-heading{
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(10, 50, 51);
+    background-color: gray;
+}
+
+.destination {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(2, 24, 26);
+    margin: 20px;
+    margin-block: 50px;
+    float: left;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.destination  {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(2, 2, 2);
+
+}
+
+.destination img {
+    width: 500px;
+    height: 265px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.destination:hover img {
+    opacity: 0.8;
+    transform: scale(1.012, 1.012);
+    transition: all 0.5s ease-in-out;
+}
+
+.destination-description {
+    height: 35px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: rgb(243, 243, 240);
+    text-align: center;
+    display: block;
+    background-color: rgb(24, 23, 23);
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+#price-plans{
+    width: 100%;
+    height: auto;
+    background-color: rgb(8, 60, 61);
+    width: 100%;
+    /* background-color: rgb(8, 60, 61); */
+    padding-inline: 120px;
+    padding-block: 50px;
+    float: left;
+}
+
+.price-heading{
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(10, 50, 51);
+    background-color: gray;
+}
+
+
+.about-description{
+    display: block;
+    text-align: center;
+    width: 900px;
+    height: auto;
+   
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+
+
+/* contact us */
+.contact-body{
+    width: 100%;
+    height: auto;
+    background-color: rgb(8, 73, 73);
+    padding-bottom: 50px;
+    float: left;
+}
+.form-contact{
+
+    width: 500px;
+    height: 500px;
+    background-color: rgb(240, 232, 223);
+    /* margin: 0 auto; */
+    margin-top: 100px;
+    margin-left:100px ;
+    float: left;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+
+  #first-name , #last-name , #email , #phone , #message
+  {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: aliceblue;
+    border-radius: 4px;
+  }
+  
+  #submit {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(73, 165, 73);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #submit:hover {
+    background-color: rgb(35, 116, 35);
+  }
+  
+  .form-heading{
+
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(10, 50, 51);
+   
+
+  }
+
+  .contact-info {
+    width: 300px;
+    height: 250px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 100px;
+    margin-left: 350px;
+    background-color: rgb(240, 232, 223);
+    color: rgb(10, 50, 51);
+    padding: 20px;
+    border-radius: 4px;
+    float: left;
+  }
+  
+  .contact-info h2 {
+    margin-top: 10px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info strong {
+    font-weight: bold;
+  }
+  
+
+  .social-media{
+
+    width: 300px;
+    height: 350px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: rgb(240, 232, 223);
+    color: rgb(10, 50, 51);
+    padding: 20px;
+    border-radius: 4px;
+    float: left; 
+}
+    
+    
+    .social-media img {
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+        margin-top: 20px;
+    }
+  
